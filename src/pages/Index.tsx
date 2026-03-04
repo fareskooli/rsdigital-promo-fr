@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import heroBg from "@/assets/hero-bg.jpg";
+import ctaBg from "@/assets/cta-bg.jpg";
 import {
   Megaphone,
   BarChart3,
