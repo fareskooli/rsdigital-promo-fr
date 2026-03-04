@@ -93,8 +93,10 @@ const Index = () => {
       </section>
 
       {/* Services */}
-      <section id="services" className="py-20 md:py-32">
-        <div className="container mx-auto px-6">
+      <section id="services" className="relative py-20 md:py-32 overflow-hidden">
+        <img src={servicesBg} alt="" className="absolute inset-0 h-full w-full object-cover opacity-10" />
+        <div className="absolute inset-0 bg-background/70" />
+        <div className="container relative mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
