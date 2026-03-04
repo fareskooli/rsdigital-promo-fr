@@ -7,6 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import heroBg from "@/assets/hero-bg.jpg";
 
 const Contact = () => {
   const { toast } = useToast();
