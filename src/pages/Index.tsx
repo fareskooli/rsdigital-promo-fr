@@ -119,14 +119,15 @@ const Index = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-20">
-        <div className="container mx-auto px-6">
+      <section className="relative py-20 overflow-hidden">
+        <img src={ctaBg} alt="" className="absolute inset-0 h-full w-full object-cover opacity-30" />
+        <div className="container relative mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="rounded-2xl glow-border bg-card p-12 text-center md:p-16"
+            className="rounded-2xl glow-border bg-background/80 backdrop-blur-sm p-12 text-center md:p-16"
           >
             <h2 className="mb-4 text-3xl font-bold font-[var(--font-heading)] md:text-4xl">
               Prêt à <span className="text-gradient">commencer</span> ?

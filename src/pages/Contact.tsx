@@ -34,7 +34,8 @@ const Contact = () => {
       <Navbar />
 
       <section className="relative pt-32 pb-20 md:pt-44 md:pb-32">
-        <div className="absolute inset-0 bg-glow" />
+        <img src={heroBg} alt="" className="absolute inset-0 h-full w-full object-cover opacity-30" />
+        <div className="absolute inset-0 bg-background/60" />
         <div className="container relative mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
