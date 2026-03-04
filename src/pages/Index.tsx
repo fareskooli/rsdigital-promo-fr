@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import heroBg from "@/assets/hero-bg.jpg";
+import ctaBg from "@/assets/cta-bg.jpg";
 import {
   Megaphone,
   BarChart3,
@@ -59,7 +61,8 @@ const Index = () => {
 
       {/* Hero */}
       <section className="relative overflow-hidden pt-32 pb-20 md:pt-44 md:pb-32">
-        <div className="absolute inset-0 bg-glow" />
+        <img src={heroBg} alt="" className="absolute inset-0 h-full w-full object-cover opacity-40" />
+        <div className="absolute inset-0 bg-background/60" />
         <div className="container relative mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -116,14 +119,15 @@ const Index = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-20">
-        <div className="container mx-auto px-6">
+      <section className="relative py-20 overflow-hidden">
+        <img src={ctaBg} alt="" className="absolute inset-0 h-full w-full object-cover opacity-30" />
+        <div className="container relative mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="rounded-2xl glow-border bg-card p-12 text-center md:p-16"
+            className="rounded-2xl glow-border bg-background/80 backdrop-blur-sm p-12 text-center md:p-16"
           >
             <h2 className="mb-4 text-3xl font-bold font-[var(--font-heading)] md:text-4xl">
               Prêt à <span className="text-gradient">commencer</span> ?
