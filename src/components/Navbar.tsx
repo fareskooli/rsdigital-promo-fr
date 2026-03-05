@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import logo from "@/assets/RS_Logo.png";
 
 const Navbar = () => {
   const location = useLocation();
@@ -9,6 +10,7 @@ const Navbar = () => {
 
   const links = [
     { to: "/", label: "Accueil" },
+    { to: "/#services", label: "Services" },
     { to: "/contact", label: "Contact" },
   ];
 
@@ -19,12 +21,9 @@ const Navbar = () => {
       transition={{ duration: 0.5 }}
       className="fixed top-0 left-0 right-0 z-50 border-b border-border/50 bg-background/80 backdrop-blur-xl"
     >
-      <div className="container mx-auto flex items-center justify-between px-6 py-4">
+      <div className="container mx-auto flex items-center justify-between px-6 py-3">
         <Link to="/" className="flex items-center gap-2">
-          <span className="text-2xl font-bold font-[var(--font-heading)]">
-            <span className="text-gradient">RS</span>{" "}
-            <span className="text-foreground">Digital</span>
-          </span>
+          <img src={logo} alt="RS Digital" className="h-10" />
         </Link>
 
         {/* Desktop */}
