@@ -84,9 +84,6 @@ const Index = () => {
               <Button variant="hero" size="lg" asChild>
                 <Link to="/contact">Contactez-nous</Link>
               </Button>
-              <Button variant="heroOutline" size="lg" asChild>
-                <a href="#services">Nos services</a>
-              </Button>
             </div>
           </motion.div>
         </div>
