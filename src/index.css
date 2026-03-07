@@ -6,14 +6,14 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 230 25% 12%;
+    --background: 240 10% 8%;
+    --foreground: 0 0% 95%;
 
-    --card: 230 30% 97%;
-    --card-foreground: 230 25% 12%;
+    --card: 240 15% 15%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 230 25% 12%;
+    --popover: 240 10% 10%;
+    --popover-foreground: 0 0% 95%;
 
     --primary: 250 70% 56%;
     --primary-foreground: 0 0% 100%;
@@ -21,8 +21,8 @@
     --secondary: 200 60% 94%;
     --secondary-foreground: 230 25% 15%;
 
-    --muted: 230 20% 93%;
-    --muted-foreground: 230 15% 45%;
+    --muted: 240 20% 35%;
+    --muted-foreground: 0 0% 65%;
 
     --accent: 195 100% 50%;
     --accent-foreground: 0 0% 100%;
@@ -30,8 +30,8 @@
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 230 20% 88%;
-    --input: 230 20% 88%;
+    --border: 240 15% 25%;
+    --input: 240 15% 20%;
     --ring: 250 70% 56%;
 
     --radius: 0.75rem;
@@ -40,8 +40,8 @@
     --font-body: 'Inter', sans-serif;
 
     --gradient-primary: linear-gradient(135deg, hsl(195 100% 50%), hsl(250 70% 56%));
-    --gradient-glow: radial-gradient(ellipse at 50% 0%, hsl(250 70% 56% / 0.08), transparent 60%);
-    --shadow-glow: 0 0 40px hsl(250 70% 56% / 0.12);
+    --gradient-glow: radial-gradient(ellipse at 50% 0%, hsl(250 70% 56% / 0.15), transparent 60%);
+    --shadow-glow: 0 0 40px hsl(250 70% 56% / 0.25);
   }
 }
 
