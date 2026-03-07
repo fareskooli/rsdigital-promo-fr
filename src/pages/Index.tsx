@@ -89,6 +89,34 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Services */}
+      <section id="services" className="relative py-20 md:py-32 overflow-hidden">
+        <img src={servicesBg} alt="" className="absolute inset-0 h-full w-full object-cover opacity-10" />
+        <div className="absolute inset-0 bg-background/70" />
+        <div className="container relative mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="mb-16 text-center"
+          >
+            <h2 className="mb-4 text-3xl font-bold md:text-4xl font-[var(--font-heading)]">
+              Nos <span className="text-gradient">Services</span>
+            </h2>
+            <p className="mx-auto max-w-xl text-muted-foreground">
+              Des solutions complètes pour développer votre présence digitale et
+              atteindre vos objectifs commerciaux.
+            </p>
+          </motion.div>
+
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {services.map((service, i) => (
+              <ServiceCard key={service.title} {...service} index={i} />
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* CTA */}
       <section className="relative py-20 overflow-hidden">
