@@ -2,9 +2,58 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import heroBg from "@/assets/hero-bg.jpg";
 import ctaBg from "@/assets/cta-bg.jpg";
+import servicesBg from "@/assets/services-bg.jpg";
+import {
+  Megaphone,
+  BarChart3,
+  Globe,
+  PenTool,
+  Search,
+  Share2,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ServiceCard from "@/components/ServiceCard";
+
+const services = [
+  {
+    icon: Megaphone,
+    title: "Publicité Digitale",
+    description:
+      "Campagnes publicitaires ciblées sur Google Ads, Facebook Ads et Instagram pour maximiser votre retour sur investissement.",
+  },
+  {
+    icon: Share2,
+    title: "Gestion des Réseaux Sociaux",
+    description:
+      "Création de contenu engageant et gestion complète de vos réseaux sociaux pour développer votre communauté.",
+  },
+  {
+    icon: Search,
+    title: "Référencement SEO",
+    description:
+      "Optimisation de votre site web pour les moteurs de recherche afin d'augmenter votre visibilité organique.",
+  },
+  {
+    icon: PenTool,
+    title: "Création de Contenu",
+    description:
+      "Design graphique, rédaction et production de contenu visuel de qualité pour votre marque.",
+  },
+  {
+    icon: Globe,
+    title: "Création de Sites Web",
+    description:
+      "Conception et développement de sites web modernes, responsifs et optimisés pour la conversion.",
+  },
+  {
+    icon: BarChart3,
+    title: "Analyse & Reporting",
+    description:
+      "Suivi des performances, rapports détaillés et recommandations stratégiques basées sur les données.",
+  },
+];
 
 const Index = () => {
   return (
