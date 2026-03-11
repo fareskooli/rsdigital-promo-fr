@@ -180,7 +180,16 @@ const Contact = () => {
                     </div>
                   </a>
 
-                  <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 group">
+                  <a href="https://www.instagram.com/rs.digital.ads/" target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 group">
+                    <div className="rounded-lg bg-pink-500/10 p-3">
+                      <Instagram className="h-5 w-5 text-pink-600" />
+                    </div>
+                    <div>
+                      <p className="font-medium text-foreground group-hover:text-primary transition-colors">Instagram</p>
+                      <p className="text-sm text-muted-foreground">Notre page Instagram</p>
+                    </div>
+                  </a>
+
                     <div className="rounded-lg bg-red-500/10 p-3">
                       <MapPin className="h-5 w-5 text-red-500" />
                     </div>
