@@ -190,6 +190,7 @@ const Contact = () => {
                     </div>
                   </a>
 
+                  <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 group">
                     <div className="rounded-lg bg-red-500/10 p-3">
                       <MapPin className="h-5 w-5 text-red-500" />
                     </div>
