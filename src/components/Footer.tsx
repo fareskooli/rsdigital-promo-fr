@@ -50,7 +50,7 @@ const Footer = () => {
           {/* Social */}
           <div>
             <h4 className="font-semibold text-foreground mb-4 font-[var(--font-heading)]">Suivez-nous</h4>
-            <div className="flex items-center gap-4">
+            <div className="flex flex-col gap-3">
               <a
                 href="https://wa.me/212600000000"
                 target="_blank"
