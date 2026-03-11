@@ -28,9 +28,9 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="mailto:bmwm3things@gmail.com" className="flex items-center gap-2 hover:text-primary transition-colors">
+                <a href="mailto:rsdigital049@gmail.com" className="flex items-center gap-2 hover:text-primary transition-colors">
                   <Mail className="h-4 w-4 text-primary" />
-                  bmwm3things@gmail.com
+                  rsdigital049@gmail.com
                 </a>
               </li>
               <li>

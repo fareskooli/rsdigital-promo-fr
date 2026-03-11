@@ -160,13 +160,13 @@ const Contact = () => {
                     </div>
                   </a>
 
-                  <a href="mailto:bmwm3things@gmail.com" className="flex items-start gap-4 group">
+                  <a href="mailto:rsdigital049@gmail.com" className="flex items-start gap-4 group">
                     <div className="rounded-lg bg-primary/10 p-3">
                       <Mail className="h-5 w-5 text-primary" />
                     </div>
                     <div>
                       <p className="font-medium text-foreground group-hover:text-primary transition-colors">Email</p>
-                      <p className="text-sm text-muted-foreground">bmwm3things@gmail.com</p>
+                      <p className="text-sm text-muted-foreground">rsdigital049@gmail.com</p>
                     </div>
                   </a>
 
