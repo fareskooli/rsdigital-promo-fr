@@ -170,7 +170,7 @@ const Contact = () => {
                     </div>
                   </a>
 
-                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 group">
+                  <a href="https://www.facebook.com/RSdigital.tn" target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 group">
                     <div className="rounded-lg bg-blue-500/10 p-3">
                       <Facebook className="h-5 w-5 text-blue-600" />
                     </div>
