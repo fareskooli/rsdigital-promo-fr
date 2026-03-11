@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Send, Mail, User, MessageSquare, Phone, MapPin, Facebook } from "lucide-react";
+import { Send, Mail, User, MessageSquare, Phone, MapPin, Facebook, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -177,6 +177,16 @@ const Contact = () => {
                     <div>
                       <p className="font-medium text-foreground group-hover:text-primary transition-colors">Facebook</p>
                       <p className="text-sm text-muted-foreground">Notre page Facebook</p>
+                    </div>
+                  </a>
+
+                  <a href="https://www.instagram.com/rs.digital.ads/" target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 group">
+                    <div className="rounded-lg bg-pink-500/10 p-3">
+                      <Instagram className="h-5 w-5 text-pink-600" />
+                    </div>
+                    <div>
+                      <p className="font-medium text-foreground group-hover:text-primary transition-colors">Instagram</p>
+                      <p className="text-sm text-muted-foreground">Notre page Instagram</p>
                     </div>
                   </a>
 

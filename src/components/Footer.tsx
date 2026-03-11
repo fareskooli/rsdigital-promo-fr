@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin, Facebook } from "lucide-react";
+import { Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
 import logo from "@/assets/RS_Logo.png";
 
 const Footer = () => {
@@ -70,6 +70,15 @@ const Footer = () => {
               >
                 <Facebook className="h-4 w-4" />
                 Facebook
+              </a>
+              <a
+                href="https://www.instagram.com/rs.digital.ads/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-lg bg-pink-500/10 px-4 py-2 text-sm font-medium text-pink-600 hover:bg-pink-500/20 transition-colors"
+              >
+                <Instagram className="h-4 w-4" />
+                Instagram
               </a>
             </div>
           </div>
