@@ -13,7 +13,7 @@ const Footer = () => {
               <img src={logo} alt="RS Digital" className="h-10" />
             </Link>
             <p className="text-sm text-muted-foreground max-w-xs">
-              RS Digital for ADDS and Services — Votre partenaire en marketing digital.
+              Digital for ADS and Services — Votre partenaire en marketing digital.
             </p>
           </div>
 
