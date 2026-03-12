@@ -86,7 +86,7 @@ const Footer = () => {
 
         <div className="mt-10 border-t border-border/50 pt-6 text-center">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} RS Digital for ADDS and Services. Tous droits réservés.
+            © {new Date().getFullYear()} Digital for ADS and Services. Tous droits réservés.
           </p>
         </div>
       </div>
