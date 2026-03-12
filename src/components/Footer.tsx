@@ -35,7 +35,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://maps.google.com"
+                  href="https://maps.app.goo.gl/8FpUX2wxqwaK96FK9"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 hover:text-primary transition-colors"
