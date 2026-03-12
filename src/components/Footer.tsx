@@ -41,7 +41,7 @@ const Footer = () => {
                   className="flex items-center gap-2 hover:text-primary transition-colors"
                 >
                   <MapPin className="h-4 w-4 text-primary" />
-                  Notre emplacement
+                  Ariana, Tunisie
                 </a>
               </li>
             </ul>
