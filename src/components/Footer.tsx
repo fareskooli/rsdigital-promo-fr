@@ -63,15 +63,6 @@ const Footer = () => {
                 WhatsApp
               </a>
               <a
-                href="https://www.facebook.com/RSdigital.tn"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-lg bg-blue-500/10 px-4 py-2 text-sm font-medium text-blue-600 hover:bg-blue-500/20 transition-colors"
-              >
-                <Facebook className="h-4 w-4" />
-                Facebook
-              </a>
-              <a
                 href="https://www.instagram.com/rs.digital.ads/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -79,6 +70,15 @@ const Footer = () => {
               >
                 <Instagram className="h-4 w-4" />
                 Instagram
+              </a>
+              <a
+                href="https://www.facebook.com/RSdigital.tn"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-lg bg-blue-500/10 px-4 py-2 text-sm font-medium text-blue-600 hover:bg-blue-500/20 transition-colors"
+              >
+                <Facebook className="h-4 w-4" />
+                Facebook
               </a>
             </div>
           </div>
