@@ -166,7 +166,7 @@ const Contact = () => {
                 </h2>
 
                 <div className="space-y-5">
-                  <a href="+216 27 628 352" className="flex items-start gap-4 group">
+                  <a href="tel:+21627628352" className="flex items-start gap-4 group">
                     <div className="rounded-lg bg-primary/10 p-3">
                       <Phone className="h-5 w-5 text-primary" />
                     </div>
