@@ -220,7 +220,7 @@ const Contact = () => {
 
               {/* WhatsApp CTA */}
               <a
-                href="https://wa.me/212600000000"
+                href="https://wa.me/+216 27 628 352"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 rounded-2xl bg-green-500 p-6 text-white hover:bg-green-600 transition-colors"
