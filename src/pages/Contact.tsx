@@ -166,7 +166,7 @@ const Contact = () => {
                 </h2>
 
                 <div className="space-y-5">
-                  <a href="+216 27 628 352" className="flex items-start gap-4 group">
+                  <a href="tel:+21627628352" className="flex items-start gap-4 group">
                     <div className="rounded-lg bg-primary/10 p-3">
                       <Phone className="h-5 w-5 text-primary" />
                     </div>
@@ -220,7 +220,7 @@ const Contact = () => {
 
               {/* WhatsApp CTA */}
               <a
-                href="https://wa.me/+216 27 628 352"
+                href="https://wa.me/21627628352"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 rounded-2xl bg-green-500 p-6 text-white hover:bg-green-600 transition-colors"
