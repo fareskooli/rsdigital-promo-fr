@@ -120,7 +120,7 @@ const Contact = () => {
                 <Input
                   type="tel"
                   maxLength={20}
-                  placeholder="+212 6 00 00 00 00"
+                  placeholder="+216 27 628 352"
                   value={form.phone}
                   onChange={(e) => setForm({ ...form, phone: e.target.value })}
                   className="bg-secondary/50 border-border/50 focus:border-primary"
